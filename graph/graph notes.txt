@@ -1,0 +1,25 @@
+1. Create graph
+	a. Adjacency Matrix : Time (V x V), Space(V x V)
+	b. Adjacency List: Time->Avg(V + E) & Worst(V X V)
+
+2. BFS graph
+	breadth first search
+	implemented by queue and a visted vector
+	time & Space:- O(|V|)
+
+3. DFS graph
+	depth first search
+	loop termination condition: 
+		1. node is a leaf node
+		2. node is already visited
+
+
+# Difference between DFS and BFS
+
+DFS						BFS
+
+1. depth				wide
+2. Pre,Post,Inorder		Level Order
+3. Far					Near
+4. Stack				queue
+5. Backtracking			Shortest distance
