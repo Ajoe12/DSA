@@ -23,3 +23,8 @@ DFS						BFS
 3. Far					Near
 4. Stack				queue
 5. Backtracking			Shortest distance
+
+
+
+4. detect cycle in directed graph (dfs)
+	-> for directed graph we will take Order vector with visited vector to check the path. 
