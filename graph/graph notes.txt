@@ -28,3 +28,7 @@ DFS						BFS
 
 4. detect cycle in directed graph (dfs)
 	-> for directed graph we will take Order vector with visited vector to check the path. 
+
+5. detect cycle in uniderected graph (dfs)
+	-> for uniderected graph we have to store the parent of every node in recursion 
+	-> 1-2 if parent not sent then this edge is considered a cycle.
